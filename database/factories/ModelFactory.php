@@ -11,11 +11,9 @@
 |
 */
 
-$factory->define('App\User', function ($faker) {
+$factory->define('App\Message', function ($faker) {
     return [
         'name' => $faker->name,
-        'email' => $faker->email,
-        'password' => str_random(10),
-        'remember_token' => str_random(10),
+        'message' => $faker->paragraph
     ];
 });

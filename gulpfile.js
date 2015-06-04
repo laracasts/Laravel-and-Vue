@@ -11,6 +11,11 @@ var elixir = require('laravel-elixir');
  |
  */
 
+//elixir.config.babel.enabled = false;
+
 elixir(function(mix) {
-    mix.less('app.less');
+    mix.scripts([
+        'vendor/vue.min.js',
+        'vendor/vue-resource.min.js'
+    ], 'public/js/vendor.js')
 });
