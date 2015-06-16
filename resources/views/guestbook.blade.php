@@ -52,7 +52,7 @@
         </article>
     </div>
 
-    <script src="/js/vendor.js"></script>
-    <script src="/js/guestbook.js"></script>
+    <script src="js/vendor.js"></script>
+    <script src="js/guestbook.js"></script>
 </body>
 </html>
